@@ -1,0 +1,30 @@
+app:
+  name: "Go_forum"
+  mode: "dev"
+  port: 8080
+  version: "v0.0.1"
+  start_time: "2024-01-01"
+  mechine_id: 1
+
+log:
+  level: ""
+  filename: "./logger/go_forum.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "254137.w"
+  dbname: "go_forum"
+  max_open_connection: 200
+  max_idle_connection: 50
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: ""
+  db: ""
+  pool_size: 2
